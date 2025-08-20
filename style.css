@@ -23,7 +23,11 @@
 
 
 .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 
 }
@@ -31,7 +35,11 @@
 .header__list {
     margin-right: auto;
     margin-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 25px;
 }
@@ -39,16 +47,18 @@
 .header__link {
     font-family: Jost;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
-    leading-trim: NONE;
+
     line-height: 20px;
-    letter-spacing: 0%;
     color: black;
 }
 
-.header__btns{
+.header__btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 16px;
 }
@@ -56,14 +66,11 @@
 .header__btn {
     padding: 15px 26px;
     background-color: #000000;
-font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-leading-trim: NONE;
-line-height: 20px;
-letter-spacing: 0%;
-color: white;
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
 }
 
 /* Hero */
@@ -74,73 +81,77 @@ color: white;
 }
 
 .hero__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .hero__functions {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
 }
 
 .hero__mark {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-background-color: #E2B013;
-padding: 0 4px;
-color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #E2B013;
+    padding: 0 4px;
+    color: white;
 }
 
 
 .hero__title {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 96px;
-leading-trim: NONE;
-line-height: 86.4px;
-letter-spacing: 0%;
-margin: 40px 0;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 86.4px;
+    margin: 40px 0;
 }
 
 
 .hero__title-mini {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 50px;
-leading-trim: NONE;
-line-height: 25.2px;
-letter-spacing: 0%;
-margin-bottom: 46px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 25.2px;
+    margin-bottom: 46px;
 
 }
 
 .hero__text {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 26px;
-leading-trim: NONE;
-line-height: 33.8px;
-letter-spacing: 0%;
-margin-bottom: 87px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33.8px;
+    margin-bottom: 87px;
 }
 
 .hero__functions {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 66px;
 }
 
 .hero__function {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     max-width: 81px;
 
@@ -148,14 +159,11 @@ margin-bottom: 87px;
 
 .hero__info {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 11px;
-leading-trim: NONE;
-line-height: 14.3px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14.3px;
+    text-align: center;
+    text-transform: uppercase;
 
 }
 
@@ -168,31 +176,27 @@ text-transform: uppercase;
 }
 
 .about__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 50px;
 }
 
 .about__title {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 96px;
-leading-trim: NONE;
-line-height: 86.4px;
-letter-spacing: 0%;
-margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 86.4px;
+    margin-bottom: 40px;
 }
 
 
-.about__text{
+.about__text {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 22px;
-leading-trim: NONE;
-line-height: 27.5px;
-letter-spacing: 0%;
-margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27.5px;
+    margin-bottom: 30px;
 }
 
 .about__link {
@@ -201,17 +205,16 @@ margin-bottom: 30px;
     background-color: #000000;
     color: white;
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 14px;
-leading-trim: NONE;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
 
 }
 
-.about__group{
+.about__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 10px;
 }
@@ -224,17 +227,20 @@ text-align: center;
 
 /* Collection */
 .collection {
+    display: -ms-grid;
     display: grid;
+    -webkit-column-gap: 46px;
+    -moz-column-gap: 46px;
     column-gap: 46px;
     row-gap: 78px;
 }
 
-.collection-block {
+.collection__block {
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.04);
 }
 
-.collection-block h3 {
+.collection__block-title {
     margin-top: 17px;
     padding-left: 15px;
     font-family: Jost;
@@ -252,6 +258,7 @@ text-align: center;
 }
 
 .landing__collection {
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
 
 }
@@ -264,6 +271,7 @@ text-align: center;
 
 
 .company__collection {
+    -ms-grid-columns: (1fr)[3];
     grid-template-columns: repeat(3, 1fr);
 
 }
@@ -277,17 +285,19 @@ text-align: center;
 
 .cms__collection {
     grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[2];
 }
 
 /* Utility */
 
 
-.utility{
+.utility {
     padding: 100px 0;
 }
 
 .utility__collection {
     grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[2];
 }
 
 
@@ -300,17 +310,18 @@ text-align: center;
 
 .footer__title {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 24px;
-leading-trim: NONE;
-line-height: 30px;
-letter-spacing: 0%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
 
 }
 
 .footer__form {
     margin-top: 30px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
 
     display: flex;
     width: 500px;
@@ -319,12 +330,14 @@ letter-spacing: 0%;
 
 }
 
-.footer__form input {
+.footer__input {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
     padding: 5px 10px;
 }
 
-.footer__form button {
+.footer__btn {
     width: 120px;
     height: 40px;
     background-color: black;
@@ -332,18 +345,20 @@ letter-spacing: 0%;
 
 .footer__top {
     padding-bottom: 130px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 16px 200px 16px 200px 16px 200px;
     grid-template-columns: 1fr 200px 200px 200px;
     gap: 16px;
     margin-bottom: 16px;
 }
 
-.footer__list li {
-margin-top: 13px;
+.footer__item {
+    margin-top: 13px;
 
 }
 
-.footer__links:nth-child(2){
+.footer__links:nth-child(2) {
     margin-top: 30px;
 }
 
@@ -351,32 +366,30 @@ margin-top: 13px;
 
 .footer__link {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 15px;
-leading-trim: NONE;
-line-height: 20px;
-letter-spacing: 0%;
-color: rgba(51, 51, 51, 1);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 1);
 }
 
 .footer__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .footer__info {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 10px;
-leading-trim: NONE;
-line-height: 10px;
-letter-spacing: 0%;
-text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
 }
 
-.footer__info span {
+.footer__info-color {
     color: rgba(226, 176, 19, 1);
 
 }
