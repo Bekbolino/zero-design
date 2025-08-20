@@ -1,402 +1,316 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-@import url('reset.css');
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-.container {
-    max-width: 1320px;
-    margin: 0 auto;
-}
-
-.section-title {
-    padding: 6px 100px 14px 30px;
-    background-color: #000000;
-    color: white;
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
-    display: inline-block;
-    margin-bottom: 60px;
-}
-
-
-/* Header */
-
-
-.header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-
-}
-
-.header__list {
-    margin-right: auto;
-    margin-left: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 25px;
-}
-
-.header__link {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 18px;
-
-    line-height: 20px;
-    color: black;
-}
-
-.header__btns {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 16px;
-}
-
-.header__btn {
-    padding: 15px 26px;
-    background-color: #000000;
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    color: white;
-}
-
-/* Hero */
-
-
-.hero {
-    padding-bottom: 117px;
-}
-
-.hero__row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.hero__functions {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-}
-
-.hero__mark {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #E2B013;
-    padding: 0 4px;
-    color: white;
-}
-
-
-.hero__title {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 86.4px;
-    margin: 40px 0;
-}
-
-
-.hero__title-mini {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 25.2px;
-    margin-bottom: 46px;
-
-}
-
-.hero__text {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 33.8px;
-    margin-bottom: 87px;
-}
-
-.hero__functions {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 66px;
-}
-
-.hero__function {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    max-width: 81px;
-
-}
-
-.hero__info {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 14.3px;
-    text-align: center;
-    text-transform: uppercase;
-
-}
-
-
-/* About */
-
-.about {
-    padding-top: 130px;
-    padding-bottom: 65px;
-}
-
-.about__row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 50px;
-}
-
-.about__title {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 86.4px;
-    margin-bottom: 40px;
-}
-
-
-.about__text {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 27.5px;
-    margin-bottom: 30px;
-}
-
-.about__link {
-    padding: 9px 16px;
-    padding-right: 32px;
-    background-color: #000000;
-    color: white;
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-
-}
-
-.about__group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 10px;
-}
-
-.about__group:not(:last-child) {
-    margin-bottom: 8px;
-}
-
-
-
-/* Collection */
-.collection {
-    display: -ms-grid;
-    display: grid;
-    -webkit-column-gap: 46px;
-    -moz-column-gap: 46px;
-    column-gap: 46px;
-    row-gap: 78px;
-}
-
-.collection__block {
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.04);
-}
-
-.collection__block-title {
-    margin-top: 17px;
-    padding-left: 15px;
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 32.5px;
-    text-transform: uppercase;
-
-}
-
-/* Landing */
-
-.landing {
-    padding: 100px 0;
-}
-
-.landing__collection {
-    -ms-grid-columns: (1fr)[2];
-    grid-template-columns: repeat(2, 1fr);
-
-}
-
-/* Company */
-
-.company {
-    padding: 100px 0;
-}
-
-
-.company__collection {
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3, 1fr);
-
-}
-
-/* CMS */
-
-.cms {
-    padding: 100px 0;
-}
-
-
-.cms__collection {
-    grid-template-columns: repeat(2, 1fr);
-    -ms-grid-columns: (1fr)[2];
-}
-
-/* Utility */
-
-
-.utility {
-    padding: 100px 0;
-}
-
-.utility__collection {
-    grid-template-columns: repeat(2, 1fr);
-    -ms-grid-columns: (1fr)[2];
-}
-
-
-/* Footer */
-
-.footer {
-    padding: 60px 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.04);
-}
-
-.footer__title {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-
-}
-
-.footer__form {
-    margin-top: 30px;
-
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
-    display: flex;
-    width: 500px;
-    border: 1px solid rgba(226, 225, 223, 1);
-    margin-bottom: 200px;
-
-}
-
-.footer__input {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    padding: 5px 10px;
-}
-
-.footer__btn {
-    width: 120px;
-    height: 40px;
-    background-color: black;
-}
-
-.footer__top {
-    padding-bottom: 130px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 16px 200px 16px 200px 16px 200px;
-    grid-template-columns: 1fr 200px 200px 200px;
-    gap: 16px;
-    margin-bottom: 16px;
-}
-
-.footer__item {
-    margin-top: 13px;
-
-}
-
-.footer__links:nth-child(2) {
-    margin-top: 30px;
-}
-
-
-
-.footer__link {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    color: rgba(51, 51, 51, 1);
-}
-
-.footer__bottom {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.footer__info {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 10px;
-    text-transform: uppercase;
-}
-
-.footer__info-color {
-    color: rgba(226, 176, 19, 1);
-
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zero design</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <img src="./img/logo.svg" alt="" class="logo">
+                <ul class="header__list">
+                    <li><a href="" class="header__link">Landing</a></li>
+                    <li><a href="" class="header__link">Company</a></li>
+                    <li><a href="" class="header__link">CMS Pages</a></li>
+                    <li><a href="" class="header__link">Utility</a></li>
+                </ul>
+                <div class="header__btns">
+                    <button class="header__btn">$129 Buy Now</button>
+                    <img src="./img/lupa.svg" alt="">
+                    <img src="./img/telega.svg" alt="">
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__row">
+                    <div class="hero__contnent">
+                        <span class="hero__mark">Design addicted</span>
+                        <h1 class="hero__title">A stylish UI Kit</h1>
+                        <h2 class="hero__title-mini">for all web creatives</h2>
+                        <p class="hero__text">Zero is a Webflow Ecommerce and CMS UI kit including several carefully designed page layouts.</p>
+                        <div class="hero__functions">
+                            <div class="hero__function">
+                                <img src="./img/func-1.svg" alt="">
+                                <p class="hero__info">smooth interactions</p>
+                            </div>
+                            <div class="hero__function">
+                                <img src="./img/func-2.svg" alt="">
+                                <p class="hero__info">many page layouts</p>
+                            </div>
+                            <div class="hero__function">
+                                <img src="./img/func-3.svg" alt="">
+                                <p class="hero__info">fully responsive</p>
+                            </div>
+                            <div class="hero__function">
+                                <img src="./img/func-4.svg" alt="">
+                                <p class="hero__info">fast customization</p>
+                            </div>
+                        </div>
+                    </div>
+                        <img src="./img/hero-img.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__row">
+                        <img src="./img/about-img.png" alt="">
+                    <div class="about__content">
+                        <h2 class="about__title">Zero Design</h2>
+                        <p class="about__text">Includes a total of 10 static pages, divided like this: 4 Landing pages, 2 About pages, 2 Contact page, 1 Team page, 1 FAQ page. In addition to these, there are Webflow CMS driven pages: Blog (in 2 variations), Shop (in 2 variations), Works and Careers. All with their respective single pages!</p>
+                        <div class="about__blocks">
+                            <div class="about__group">
+                                <a class="about__link">4 LANDING</a>
+                                <a class="about__link">2 ABOUT</a>
+                                <a class="about__link">3 CONTACT</a>
+                            </div>
+                            <div class="about__group">
+                                <a class="about__link">3 BLOG</a>
+                                <a class="about__link">2 SHOP</a>
+                            </div>
+                            <div class="about__group">
+                                <a class="about__link">WORKS</a>
+                                <a class="about__link">TEAM</a>
+                                <a class="about__link">CAREERS</a>
+                            </div>
+                            <div class="about__group">
+                                <a class="about__link">FORMS</a>
+                                <a class="about__link">UTILITY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="landing">
+            <div class="container">
+                <h2 class="section-title">Company</h2>
+                <div class="landing__collection collection">
+
+                    <div class="collection__block">
+                        <img src="./img/landing-1.png" alt="">
+                        <h3 class="collection__block-title" >Landing 1</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/landing-2.png" alt="">
+                        <h3 class="collection__block-title" >Landing 2</h3>
+                    </div>
+
+                    <div class="collection__block">
+                        <img src="./img/landing-3.png" alt="">
+                        <h3 class="collection__block-title" >Landing 3</h3>
+                    </div>
+
+                    <div class="collection__block">
+                        <img src="./img/landing-4.png" alt="">
+                        <h3 class="collection__block-title" >Landing 4</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="company">
+            <div class="container">
+                <h2 class="section-title">Company</h2>
+                <div class="company__collection collection">
+                    <div class="collection__block">
+                        <img src="./img/company-1.png" alt="">
+                        <h3 class="collection__block-title">about 1</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/company-2.png" alt="">
+                        <h3 class="collection__block-title">about 2</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/company-3.png" alt="">
+                        <h3 class="collection__block-title">contact 1</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/company-4.png" alt="">
+                        <h3 class="collection__block-title">contact 2</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/company-5.png" alt="">
+                        <h3 class="collection__block-title">contact 3</h3>
+                    </div><div class="collection__block">
+                        <img src="./img/company-6.png" alt="">
+                        <h3 class="collection__block-title">Team</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/company-7.png" alt="">
+                        <h3 class="collection__block-title">FAQ</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="cms">
+            <div class="container">
+                <h2 class="section-title">CMS Pages</h2>
+                <div class="collection cms__collection">
+                    <div class="collection__block">
+                        <img src="./img/cms-1.png" alt="">
+                        <h3 class="collection__block-title">works</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-2.png" alt="">
+                        <h3 class="collection__block-title">blog 1</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-3.png" alt="">
+                        <h3 class="collection__block-title">blog 2</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-4.png" alt="">
+                        <h3 class="collection__block-title">blog 3</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-5.png" alt="">
+                        <h3 class="collection__block-title">shop 1</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-6.png" alt="">
+                        <h3 class="collection__block-title">shop 2</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-7.png" alt="">
+                        <h3 class="collection__block-title">careers</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-8.png" alt="">
+                        <h3 class="collection__block-title">single product page</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-9.png" alt="">
+                        <h3 class="collection__block-title">Single post page</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-10.png" alt="">
+                        <h3 class="collection__block-title">single careers page</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/cms-11.png" alt="">
+                        <h3 class="collection__block-title">Single work page</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="utility">
+            <div class="container">
+                <h2 class="section-title">Utility</h2>
+                <div class="utility__collection collection">
+                    <div class="collection__block">
+                        <img src="./img/utility-1.png" alt="">
+                        <h3 class="collection__block-title">Coming soon</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/utility-2.png" alt="">
+                        <h3 class="collection__block-title">Coming 404</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/utility-3.png" alt="">
+                        <h3 class="collection__block-title">password</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/utility-4.png" alt="">
+                        <h3 class="collection__block-title">privacy policy</h3>
+                    </div>
+                    <div class="collection__block">
+                        <img src="./img/utility-5.png" alt="">
+                        <h3 class="collection__block-title">terms and condition</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+
+                <div class="footer__column">
+    
+                    <h3 class="footer__title">Subscribe our newsletter</h3>
+                    <form action="#" class="footer__form">
+                        <input type="text" class="footer__input">
+                        <button class="footer__btn"></button>
+                    </form>
+                    <div class="footer__icons">
+                        <img src="./img/footer-1.png" alt="">
+                        <img src="./img/footer-2.png" alt="">
+                        <img src="./img/footer-3.png" alt="">
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__links">
+                        <h3 class="footer__title">Landing Pages</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="" class="footer__link">Landing 1</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Landing 2</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Landing 3</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Landing 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__links">
+                        <h3 class="footer__title">Company</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="" class="footer__link">About 1</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">about 2</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Contact 1</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Contact 2</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Contact 3</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Team</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__links">
+                        <h3 class="footer__title">CMS Pages</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="" class="footer__link">Blog 1</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Blog 2</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Blog 3</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Single Post Page</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Shop 1</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Shop 2</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Single Product Page</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Careers</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Single Careers Page</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Works</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Single Work Page</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__links">
+                        <h3 class="footer__title">Utility</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="" class="footer__link">Coming Soon</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Password</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Privacy Policy</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Terms And Conditions</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">404</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Licensing</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">Style Guide</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__info">Powered by <span class="footer__info-color">Webflow</span></p>
+                <p class="footer__info">Created by <span class="footer__info-color">Udesly</span></p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
