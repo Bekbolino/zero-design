@@ -548,6 +548,7 @@ body {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    border: none;
 }
 
 .footer__btn:hover {
@@ -908,3 +909,4 @@ body {
 
 
 }
+
